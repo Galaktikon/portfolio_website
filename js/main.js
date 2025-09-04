@@ -29,6 +29,16 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+//clickable project cards
+document.querySelectorAll('.project-card').forEach(card => {
+    card.addEventListener('click', function (e) {
+        // Prevent navigation if clicking a child <a>
+        if (e.target.closest('a')) return;
+        const url = this.getAttribute('data-url');
+        if (url) window.open(url, '_blank');
+    });
+});
+
 // Navbar scroll effect
 window.addEventListener('scroll', () => {
     const navbar = document.querySelector('.navbar');
@@ -48,7 +58,7 @@ const observerOptions = {
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            entry.target.classList.add('fade-in-up');
+            //entry.target.classList.add('fade-in-up');
         }
     });
 }, observerOptions);
