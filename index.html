@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Josiah James - Portfolio</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -52,7 +55,7 @@
     <!-- Header/Hero Section -->
     <section id="home" class="hero">
         <div class="hero-container">
-            <div class="hero-content">
+            <div class="hero-content fade-in-up">
                 <h1 class="hero-title">Josiah James</h1>
                 <div class="hero-subtitle-box">
                     <h2 class="hero-subtitle"></h2>
@@ -73,12 +76,12 @@
         <div class="container">
             <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid">
-                <div class="project-card">
+                <div class="project-card" data-url="#">
                     <div class="project-image">
                         <i class="fas fa-shopping-cart"></i>
                     </div>
                     <div class="project-content">
-                        <h3>E-Commerce Platform</h3>
+                        <h3>E-Commerce Dashboard</h3>
                         <p>Full-stack e-commerce solution built with React, Node.js, and MongoDB. Features include payment processing, user authentication, and admin dashboard.</p>
                         <div class="project-tech">
                             <span class="tech-tag">React</span>
@@ -92,12 +95,12 @@
                     </div>
                 </div>
 
-                <div class="project-card">
+                <div class="project-card" data-url="#">
                     <div class="project-image">
                         <i class="fas fa-chart-line"></i>
                     </div>
                     <div class="project-content">
-                        <h3>Analytics Dashboard</h3>
+                        <h3>Real Time Expense Tracker</h3>
                         <p>Interactive data visualization dashboard using D3.js and Vue.js. Real-time data processing with WebSocket connections and responsive charts.</p>
                         <div class="project-tech">
                             <span class="tech-tag">Vue.js</span>
@@ -111,12 +114,12 @@
                     </div>
                 </div>
 
-                <div class="project-card">
+                <div class="project-card" data-url="#">
                     <div class="project-image">
                         <i class="fas fa-mobile-alt"></i>
                     </div>
                     <div class="project-content">
-                        <h3>Task Management App</h3>
+                        <h3>Inventory Management System</h3>
                         <p>Cross-platform mobile application built with React Native. Features offline capability, push notifications, and team collaboration tools.</p>
                         <div class="project-tech">
                             <span class="tech-tag">React Native</span>
@@ -144,7 +147,7 @@
                         <h3>Master of Financial Technology</h3>
                         <h4>University of Central Florida</h4>
                         <span class="timeline-date">2024 - 2025</span>
-                        <p>Specialized in Machine Learning and Software Engineering. Thesis on "Optimizing Web Performance through Intelligent Caching Strategies".</p>
+                        <p>Advanced study focusing on the intersection of finance and technology, including blockchain, machine learning applications in finance, and digital payment systems. Developed expertise in leveraging cutting-edge technologies to solve complex financial problems.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
@@ -153,15 +156,16 @@
                         <h3>Bachelor of Computer Science</h3>
                         <h4>University of Central Florida, Orlando</h4>
                         <span class="timeline-date">2020 - 2023</span>
-                        <p>Graduated Summa Cum Laude with focus on Full Stack Development and Database Systems. Active in Computer Science Club and Hackathons.</p>
+                        <p>Emphasizing software development, algorithms, data structures, and system design. Completed multiple team-based projects and leadership roles, with a focus on practical application of computer science principles.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <h3>St. Petersburg Community College</h4>
+                        <h3>Associates of Arts</h3>
+                        <h4>St. Petersburg Community College</h4>
                         <span class="timeline-date">2018 - 2020</span>
-                        <p>Graduated Summa Cum Laude with focus on Full Stack Development and Database Systems. Active in Computer Science Club and Hackathons.</p>
+                        <p>Foundational coursework in general education and introductory computer science, providing a strong academic base and critical thinking skills to support advanced studies.</p>
                     </div>
                 </div>
             </div>
@@ -179,39 +183,40 @@
                         <h3>IT Programmer Analyst</h3>
                         <h4>Entertainment Retail Enterprises</h4>
                         <span class="timeline-date">2024 - Present</span>
-                        <p>Lead development of enterprise web applications serving 10M+ users. Architected microservices infrastructure and mentored junior developers.</p>
+                        <p><em>Supports a multi-million-dollar ecommerce retail operation through the design and implementation of scalable IT solutions. Enhances system integration and operational efficiency by leading key API integrations and maintaining robust, high-performance codebases. Plays a pivotal role in cross-functional collaboration, infrastructure optimization, and continuous improvement of technical systems.</em></p>
                         <ul>
-                            <li>Improved application performance by 40% through optimization</li>
-                            <li>Led team of 6 developers on critical client projects</li>
-                            <li>Implemented CI/CD pipelines reducing deployment time by 60%</li>
+                            <li> Designed and implemented IT solutions for a multi-million-dollar ecommerce retail business, improving operational efficiency and system integration</li>
+                            <li> Led API integrations with platforms such as NetSuite, Salesforce, and Amazon, reducing manual processes by 30% and enhancing data synchronization</li>
+                            <li> Updated and maintained a complex codebase using GitHub, Visual Studio, JavaScript, C#, and Python, leading to a 15% reduction in system downtime</li>
+                            <li> Collaborated with cross-functional teams to troubleshoot and optimize existing infrastructure, reducing response times by 20%</li>
                         </ul>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <h3>Frontend Developer</h3>
-                        <h4>Digital Innovations Inc.</h4>
-                        <span class="timeline-date">2020 - 2022</span>
-                        <p>Developed responsive web applications using modern JavaScript frameworks. Collaborated with UX/UI designers to create exceptional user experiences.</p>
+                        <h3>Senior Design Project Manager (Augmented Reality Tour)</h3>
+                        <h4>University of Central Florida</h4>
+                        <span class="timeline-date">2022 - 2023</span>
+                        <p><em>Directed the end-to-end development of an augmented reality application designed to enhance the student experience at UCF’s Medical Education Building. Oversaw a team of developers, ensuring timely delivery and stakeholder satisfaction. Contributed to system architecture planning and technical documentation, resulting in improved post-deployment support and user engagement.</em></p>
                         <ul>
-                            <li>Built 15+ responsive web applications</li>
-                            <li>Increased user engagement by 35% through UX improvements</li>
-                            <li>Mentored 3 junior developers</li>
+                            <li> Spearheaded the development of an augmented reality (AR) tour for the UCF Medical Education Building, enhancing the educational experience for over 200 students annually</li>
+                            <li> Managed a team of 5 computer science students, ensuring project milestones were met on time and within budget, contributing to a 95% stakeholder satisfaction rate</li>
+                            <li> Documented technical designs and system architectures, leading to a 40% improvement in post-deployment support efficiency</li>
                         </ul>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <h3>Junior Web Developer</h3>
-                        <h4>StartupXYZ</h4>
-                        <span class="timeline-date">2019 - 2020</span>
-                        <p>Developed and maintained company website and internal tools. Gained experience in agile development and version control systems.</p>
+                        <h3>Software Developer (Internship)</h3>
+                        <h4>H.A.D.C</h4>
+                        <span class="timeline-date">2022 - 2022</span>
+                        <p><em>Contributed to the successful development and deployment of a responsive web application using modern frontend and backend technologies. Focused on improving user experience through intuitive design and clean, maintainable code. Actively participated in code reviews and technical reporting, influencing project direction and ensuring alignment with business goals.</em></p>
                         <ul>
-                            <li>Developed company's main website from scratch</li>
-                            <li>Implemented automated testing reducing bugs by 50%</li>
-                            <li>Created internal tools improving team productivity</li>
+                            <li> Developed and deployed a web application using Python and React, improving user engagement by 25% through a more intuitive UI/UX design</li>
+                            <li> Conducted code reviews and provided feedback, improving code quality by reducing bugs and technical debt by 10%</li>
+                            <li> Created detailed technical reports and presentations for senior management, resulting in successful approval for project expansion</li>
                         </ul>
                     </div>
                 </div>
@@ -237,6 +242,7 @@
                         <div>
                             <h4>Phone</h4>
                             <p>+1 (727) 401-7829</p>
+                            <p>(please text or leave voicemail if no answer)</p>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -287,7 +293,31 @@
     <script src="js/main.js"></script>
 
     <!-- Start of HubSpot Embed Code -->
-    <script type="text/javascript" id="hs-script-loader" async defer src="//js-na2.hs-scripts.com/243671901.js"></script>
+    <script>
+        (function loadHubSpotScript(attempt = 1) {
+            const MAX_ATTEMPTS = 3;
+            const script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.async = true;
+            script.defer = true;
+            script.src = '//js-na2.hs-scripts.com/243671901.js';
+            script.id = 'hs-script-loader';
+
+            script.onload = () => {
+                console.log(`HubSpot script loaded successfully on attempt ${attempt}`);
+            };
+
+            script.onerror = () => {
+                console.warn(`HubSpot script failed to load (attempt ${attempt})`);
+                if (attempt < MAX_ATTEMPTS) {
+                    // Try again after a short delay
+                    setTimeout(() => loadHubSpotScript(attempt + 1), 1000);
+                }
+            };
+
+            document.head.appendChild(script);
+        })();
+    </script>
     <!-- End of HubSpot Embed Code -->
 </body>
 </html>
